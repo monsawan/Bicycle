@@ -19,7 +19,7 @@ class Bicycle{
 		speed = speed - decrment;
 	}
 
-	void printStatus(){
+	void printStates(){
 		System.out.println("cadence:"+cadence+"speed:"+speed+"gear:"+gear);
 	}
 }
